@@ -1,0 +1,13 @@
+<main>
+  {% for feature in site.features %}
+    <hr id='{{ feature.id }}'>
+    <section>
+      <img class='img-featurecircle' src='{{ feature.image }}'>
+    </section>
+  {% endfor %}
+
+  <hr>
+</main>
+
+
+
