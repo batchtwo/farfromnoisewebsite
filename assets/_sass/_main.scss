@@ -1,20 +1,13 @@
 main {
-  hr { margin: 0px 0; }
+  hr { margin: 80px 0; }
   section { overflow: hidden; }
-
 
   img {
     @extend .img-circle;
     @extend .img-responsive;
 
-    &.pull-left {  margin-right: 40px;
-                    }
+    &.pull-left {  margin-right: 40px;  }
     &.pull-right {  margin-left: 40px;  }
-    &.max-header { max-width: 500px;
-                   width: 100%;
-                   margin-left: auto;
-                   margin-right: auto;
-                 }
   }
 
   h2 {
@@ -29,11 +22,6 @@ main {
     img {
       &.pull-left { margin-right: 20px; }
       &.pull-right { margin-left: 20px; }
-      &.max-header { max-width: 500px;
-                   width: 100%;
-                   margin-left: auto;
-                   margin-right: auto;
-                 }
     }
   }
 
@@ -45,11 +33,6 @@ main {
       max-width: 50%;
       &.pull-left { margin-right: 10px; }
       &.pull-right { margin-left: 10px; }
-      &.max-header { max-width: 500px;
-                   width: 100%;
-                   margin-left: auto;
-                   margin-right: auto;
-                 }
     }
   }
 
@@ -77,12 +60,6 @@ main {
         margin-bottom: 10px;
         margin-left: 0;
       }
-
-      &.max-header { max-width: 500px;
-                   width: 100%;
-                   margin-left: auto;
-                   margin-right: auto;
-                 }
     }
   }
 }

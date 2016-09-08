@@ -1,9 +1,9 @@
 ---
 id: about
-name:
-heading: STORY
-image: "img/circleMaskRock.gif"
+name: About
+heading: This First Heading
+subheading: Will Catch Your Eye
+image: "http://placehold.it/500x500"
 ---
 
-
-Far from Noise is the story of a 20 year old girl trapped on a cliff, trying to discover her relationship with her environment, how she got there and stuff.
+Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.

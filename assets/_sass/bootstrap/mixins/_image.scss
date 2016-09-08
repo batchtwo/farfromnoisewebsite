@@ -12,25 +12,6 @@
   height: auto; // Part 2: Scale the height according to the width, otherwise you get stretching
 }
 
-@mixin img-maxheader($display: block) {
-  display: $display;
-  max-width: 600px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  height: auto;              
-}
-
-@mixin img-featurecircle($display: block) {
-  display: $display;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  height: auto;  
-  max-width: 600px;            
-}
 
 // Retina image
 //
